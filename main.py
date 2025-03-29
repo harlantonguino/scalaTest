@@ -60,6 +60,12 @@ add_slider = st.slider(
     0.0, 100.0, (25.0, 75.0)
 )
 
+# Add a slider to the sidebar:
+add_slider = st.slider(
+    'Select a range of values',
+    0.0, 100.0, (25.0, 75.0)
+)
+
 left_column, right_column = st.columns(2)
 # You can use a column just like st.sidebar:
 left_column.button('Press me!')
