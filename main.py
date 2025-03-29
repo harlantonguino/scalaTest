@@ -8,12 +8,12 @@ st.text("""
 # Deploy Modelo de Clasificacion 
 ## sklearn LinearSVC
 """)
-
+'''
 # get data
 df = pd.read_excel('eafit.xlsx')
 
 st.table(df)
-'''
+
 
 # Ssleccionar variable predictora X - variable a predecir y
 X = df['review processed']
