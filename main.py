@@ -61,7 +61,7 @@ add_slider = st.slider(
 )
 
 # Add a slider to the sidebar:
-add_slider2 = st.slider(
+add_slider2 = st.sidebar.slider(
     'Select a range of values',
     0.0, 100.0, (25.0, 75.0)
 )
