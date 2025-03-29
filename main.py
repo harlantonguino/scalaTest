@@ -2,6 +2,7 @@
 # importar librerias
 import numpy as np
 import pandas as pd
+import streamlit as st
 
 st.text("""
 # Deploy Modelo de Clasificacion 
