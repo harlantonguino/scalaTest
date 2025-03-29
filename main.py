@@ -3,13 +3,16 @@
 import numpy as np
 import pandas as pd
 
-st.write("""
+st.text("""
 # Deploy Modelo de Clasificacion 
 ## sklearn LinearSVC
 """)
-'''
+
 # get data
-df = pd.read_parquet('Cluster_CountVectorizer_KMeans.parquet')
+df = pd.read_excel('eafit.xlsx')
+
+st.table(df)
+'''
 
 # Ssleccionar variable predictora X - variable a predecir y
 X = df['review processed']
